@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/brickwall.jpg);
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  margin: 20px;
+  background-color: rgb(128, 110, 110);
+  border: 12px solid white;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.lets_span {
+  color: rgb(76, 174, 79);
+}
+
+.play_span {
+  color: rgb(214, 196, 0);
+}
+
+.fizzbuzz_span {
+  color: rgb(230, 107, 107);
+}
+
+#game_div {
+  background-color: white;
+  border-radius: 8px;
+  width: 80%;
+  padding: 12px;
+}
+
+#rules_div {
+  background-color: rgb(128, 110, 110);
+  color: white;
+  padding: 24px;
+  margin:  24px;
+  font-family: cursive;
+  font-style: oblique;
+  border-radius: 8px;
+}
+#output_div {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(214, 196, 0);
+  padding: 16px;
+  margin: 24px 24px 0px 24px;
+  border-radius: 6px;
+}
+
+#input_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 12px;
+  padding: 24px;
+}
+
+input[type="button"] {
+  display: inline-block;
+  background-color: #4caf50;
+  border: 2px solid #4caf50;
+  border-radius: 6px;
+  color: white;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+input[type="button"]:hover {
+  background-color: white;
+  color: #4caf50;
+  border: 2px solid #4caf50;
+  transition: 0.2s ease-out;
+}
+
+#reset_btn,
+.highscore_p {
+  border: 2px solid #e66d6d;
+  background-color: white;
+  color: #e66d6d;
+  border-radius: 6px;
+}
+
+#reset_btn:hover {
+  border: 2px solid #e66d6d;
+  background-color: #e66d6d;
+  color: white;
+  transition: 0.2s ease-out;
+}
+
+#color_btn,
+.highscore_p {
+  border: 2px solid rgb(109, 137, 230);
+  background-color: white;
+  color: rgb(109, 137, 230);
+  border-radius: 6px;
+}
+
+#color_btn:hover {
+  border: 2px solid rgb(109, 137, 230);
+  background-color: rgb(109, 137, 230);
+  color: white;
+  transition: 0.2s ease-out;
+}
+
+.highscore_p {
+  border: 2px solid rgb(128, 110, 110);
+  background-color: white;
+  color: rgb(128, 110, 110);
+  padding: 24px;
+  text-align: center; 
+  text-decoration: none;
+}

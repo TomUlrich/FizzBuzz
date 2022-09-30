@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FizzBuzz</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1> <span class="lets_span">Let's </span><span class="play_span">play<br><span class="fizzbuzz_span">FizzBuzz
+        </h1>
+    </header>
+
+    <div id="game_div">
+        <div id="rules_div">
+            <p>Count up the numbers from 1 to 100. <br>
+                But for multiples of 3 call "Fizz" instead of the number and for the multiples of 5 call "Buzz". <br>
+                For numbers which are multiples of both 3 and 5 call "FizzBuzz".</p>
+        </div>
+
+        <div id="output_div">1</div>
+
+        <div id="input_div">
+            <input type="button" id="number_btn" value="current number">
+            <input type="button" id="fizz_btn" value="Fizz">
+            <input type="button" id="buzz_btn" value="Buzz">
+            <input type="button" id="fizzbuzz_btn" value="FizzBuzz">
+            <input type="button" id="color_btn" value="Change Color">
+            
+            <input type="button" id="reset_btn" class="reset" value="Reset Game">
+            <p class="highscore_p">Highscore: <span id="highscore_span">0</span></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="color.js"></script>
+</body>
+
+</html>
