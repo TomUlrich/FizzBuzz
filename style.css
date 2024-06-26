@@ -5,18 +5,19 @@
 }
 
 body {
-  background-image: url(./img/brickwall.jpg);
-  background-size: contain;
+  background-image: url(./img/more-leaves-on-green.png);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 header {
   margin: 20px;
-  background-color: rgb(128, 110, 110);
+  background-color: #806e6e;
   border: 12px solid white;
   border-radius: 8px;
   padding: 12px;
@@ -24,40 +25,44 @@ header {
 }
 
 .lets_span {
-  color: rgb(76, 174, 79);
+  color: #4cae4f;
 }
 
 .play_span {
-  color: rgb(214, 196, 0);
+  color: #f8e518;
 }
 
 .fizzbuzz_span {
-  color: rgb(230, 107, 107);
+  color: #e06c9f;
 }
 
 #game_div {
   background-color: white;
   border-radius: 8px;
   width: 80%;
-  padding: 12px;
+  padding: 24px;
 }
 
 #rules_div {
-  background-color: rgb(128, 110, 110);
+  background-color: #806e6e;
   color: white;
   padding: 24px;
-  margin:  24px;
+  margin-bottom:  24px;
   font-family: cursive;
   font-style: oblique;
   border-radius: 8px;
 }
 #output_div {
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:112px;
+  color: #fff;
+  font-size: 1.8rem;
   font-weight: bold;
-  text-align: center;
-  background-color: rgb(214, 196, 0);
-  padding: 16px;
-  margin: 24px 24px 0px 24px;
+  background-color: #1282a2;
+  margin-bottom:  24px;
+  padding: 24px;
   border-radius: 6px;
 }
 
@@ -66,13 +71,12 @@ header {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 12px;
-  padding: 24px;
 }
 
 input[type="button"] {
   display: inline-block;
-  background-color: #4caf50;
-  border: 2px solid #4caf50;
+  background-color: #85CBA3;
+  border: 2px solid #85CBA3;
   border-radius: 6px;
   color: white;
   padding: 24px;
@@ -82,45 +86,45 @@ input[type="button"] {
 
 input[type="button"]:hover {
   background-color: white;
-  color: #4caf50;
-  border: 2px solid #4caf50;
+  color: #85CBA3;
+  border: 2px solid #85CBA3;
   transition: 0.2s ease-out;
 }
 
 #reset_btn,
 .highscore_p {
-  border: 2px solid #e66d6d;
+  border: 2px solid #e06c9f;
   background-color: white;
-  color: #e66d6d;
+  color: #e06c9f;
   border-radius: 6px;
 }
 
 #reset_btn:hover {
-  border: 2px solid #e66d6d;
-  background-color: #e66d6d;
+  border: 2px solid #e06c9f;
+  background-color: #e06c9f;
   color: white;
   transition: 0.2s ease-out;
 }
 
 #color_btn,
 .highscore_p {
-  border: 2px solid rgb(109, 137, 230);
+  border: 2px solid #1282a2;
   background-color: white;
-  color: rgb(109, 137, 230);
+  color: #1282a2;
   border-radius: 6px;
 }
 
 #color_btn:hover {
-  border: 2px solid rgb(109, 137, 230);
-  background-color: rgb(109, 137, 230);
+  border: 2px solid #1282a2;
+  background-color: #1282a2;
   color: white;
   transition: 0.2s ease-out;
 }
 
 .highscore_p {
-  border: 2px solid rgb(128, 110, 110);
+  border: 2px solid #806e6e;
   background-color: white;
-  color: rgb(128, 110, 110);
+  color: #806e6e;
   padding: 24px;
   text-align: center; 
   text-decoration: none;
